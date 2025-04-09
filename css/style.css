@@ -1,7 +1,7 @@
 /*Geral*/
 
 body{
-     background: rgb(0, 0, 0);
+     background: rgb(184, 170, 170);
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -9,12 +9,60 @@ a{
     color:#ffffff;
     text-decoration: none;
 }
+html {
+    font-size: calc(15px + 0.390625vw);
+}
+p {
+    line-height: 130%;
+}
 
 /*Especifico*/
 
 header ul li {
     color: #ffffff;
     text-align: center;
-    padding:10px 0 10px 0;
-    margin: ;   
+    padding:10px 0 10px 0;    
+}
+section.banner {
+    text-align: center;
+}
+
+
+section.banner h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 10px 0 10px 0;
+}
+section.banner p button {
+    background-color: #FF6464;
+    border: none;
+    color: white;
+    display: inline-block;
+    margin: 10px 0 50px;
+    padding: 5px 18px;
+}
+
+section.posts {
+    background-color: #edf7fa;
+    padding: 10px;
+    
+}
+
+section.posts h2 {
+    text-align: center;
+    margin: 15px;
+}
+section.posts ul li {
+    background-color: #FFF;
+    padding: 15px;
+    margin: 12px 10px 12px 10px;
+    border-radius: 10px;
+}
+section.posts ul li h3 {
+    font-weight: bolder;
+    font-size: 1.2rem;
+    
+}
+section.posts ul li p {
+    margin: 15px 0 15px 0;
 }
