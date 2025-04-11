@@ -1,12 +1,12 @@
 /*Geral*/
 
 body{
-     background: rgb(238, 21, 148);
+     background: rgb(255, 255, 255);
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a{
-    color: #8793fa;
+    color: #000000;
     text-decoration: none;
 }
 html {
